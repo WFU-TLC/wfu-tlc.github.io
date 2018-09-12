@@ -2,7 +2,11 @@ name: "Data Analysis in R"
 output_dir: "."
 navbar:
   title: "Data Analysis in R"
-
+  right:
+  - text: "sessions"
+    menu:
+      - text: "session2"
+        href: session_2.html
 output:
   html_document:
     theme: journal
