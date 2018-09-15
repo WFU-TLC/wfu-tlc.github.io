@@ -1,9 +1,26 @@
 ---
-title: "Welcome"
+title: "Data Analysis in R: Research & Learning"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r, child="_setup.Rmd"}
 ```
 
-This is a test.
+## Aims
+
+For most of us, the scope and scale of the data to which we have access for the purposes of research and teaching has increased significantly in recent years. However, many of us lack the time, support, or tools to successfully employ this new data in our professional endeavors. To that end, this Faculty Learning Community aims to help you to develop your own data informed pilot study using the programming language R and related tools. 
+
+As part of this transdisciplinary community, you will meet with your colleagues at scheduled times throughout the academic year to explore relevant data in new ways. Together, we will raise questions, identify potential interdisciplinary collaborations, develop new skills in statistical analysis, programming, and data visualization, and share our work(s) in progress. 
+
+## Facilitators
+
+**Michael Dewitt**  
+Data Scientist  
+Institutional Research  
+dewittme@wfu.edu  
+[Homepage](https://michaeldewittjr.com/)  
+
+**Jerid Francom**  
+Associate Professsor  
+Department of Spanish and Italian  
+francojc@wfu.edu  
+[Homepage](https://francojc.github.io/)  
