@@ -5,37 +5,40 @@ title: "Guides"
 ```{r, child="_setup.Rmd"}
 ```
 
+<!-- TODO
+
+- Create a guide:
+  - to install and do basic git config (name and email)
+  - clone the flc_website template
+
+- Create a guide:
+  - to create a GitHub account
+  - create a github_pages repo
+  - link an existing repository to gh_pages
+  - push local webpage to github (publish site)
+-->
+
 # Installation
 
-## Install R
+## Install R and RStudio {#install-r-rstudio}
 
-```{r r-image, out.width='10%', echo=FALSE, fig.align='left'}
-include_graphics(path = "https://www.r-project.org/logo/Rlogo.png")
+[Getting started with R and RStudio](https://francojc.github.io/2017/08/14/getting-started-with-r-and-rstudio/)
+
+## Install Git {#install-git}
+
+Download and install the software from the `git` homepage. Follow this [link to the `git` downloads page](https://git-scm.com/downloads). 
+
+```{r git-install-1, fig.cap='Git downloads page.', echo=FALSE}
+display(readImage("images/git-install-1.png"))
 ```
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Download the installer for you operating system and run this installer with the default installation recommendations.
 
+Now that you have `git` on your machine, let's set some global options that will personalize your software while since we are already working at the command line. If you are on a Mac or Linux, open the 'Terminal'. If you are on a Windows machine, navigate to the programs menu and open 'git bash'. 
 
-## Install RStudio
+At the terminal, enter the following commands --replacing 'Your Name' and 'your\@email.com' with your information. 
 
-```{r rstudio-image, out.width='10%', echo=FALSE, fig.align='left'}
-include_graphics(path = "http://www.rstudio.com/wp-content/uploads/2014/06/RStudio-Ball.png")
+```{bash, eval=FALSE, echo=TRUE}
+git config --global user.name 'Your Name'
+git config --global user.email 'your@email.com'
 ```
-
-
-## Install Git
-
-```{r git-image, out.width='10%', echo=FALSE, fig.align='left'}
-include_graphics(path = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png")
-```
-
-
-# Basic usage
-
-... 
-

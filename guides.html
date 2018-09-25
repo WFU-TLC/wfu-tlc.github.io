@@ -322,25 +322,39 @@ div.tocify {
 </div>
 
 
+<!-- TODO
+
+- Create a guide:
+  - to install and do basic git config (name and email)
+  - clone the flc_website template
+
+- Create a guide:
+  - to create a GitHub account
+  - create a github_pages repo
+  - link an existing repository to gh_pages
+  - push local webpage to github (publish site)
+-->
 <div id="installation" class="section level1">
 <h1>Installation</h1>
-<div id="install-r" class="section level2">
-<h2>Install R</h2>
-<p><img src="https://www.r-project.org/logo/Rlogo.png" width="10%" style="display: block; margin: auto auto auto 0;" /></p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-<div id="install-rstudio" class="section level2">
-<h2>Install RStudio</h2>
-<p><img src="http://www.rstudio.com/wp-content/uploads/2014/06/RStudio-Ball.png" width="10%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="install-r-rstudio" class="section level2">
+<h2>Install R and RStudio</h2>
+<p><a href="https://francojc.github.io/2017/08/14/getting-started-with-r-and-rstudio/">Getting started with R and RStudio</a></p>
 </div>
 <div id="install-git" class="section level2">
 <h2>Install Git</h2>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png" width="10%" style="display: block; margin: auto auto auto 0;" /></p>
+<p>Download and install the software from the <code>git</code> homepage. Follow this <a href="https://git-scm.com/downloads">link to the <code>git</code> downloads page</a>.</p>
+<div class="figure" style="text-align: center">
+<img src="figures/git-install-1-1.png" alt="Git downloads page." width="100%" />
+<p class="caption">
+Git downloads page.
+</p>
 </div>
+<p>Download the installer for you operating system and run this installer with the default installation recommendations.</p>
+<p>Now that you have <code>git</code> on your machine, let’s set some global options that will personalize your software while since we are already working at the command line. If you are on a Mac or Linux, open the ‘Terminal’. If you are on a Windows machine, navigate to the programs menu and open ‘git bash’.</p>
+<p>At the terminal, enter the following commands –replacing ‘Your Name’ and ‘your@email.com’ with your information.</p>
+<pre class="bash"><code>git config --global user.name &#39;Your Name&#39;
+git config --global user.email &#39;your@email.com&#39;</code></pre>
 </div>
-<div id="basic-usage" class="section level1">
-<h1>Basic usage</h1>
-<p>…</p>
 </div>
 
 
