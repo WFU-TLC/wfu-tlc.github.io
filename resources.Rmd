@@ -5,25 +5,32 @@ title: "Resources"
 ```{r, child="_setup.Rmd"}
 ```
 
-## Git {#git-resources}
+## Getting help {#getting-help}
 
-[Git-it](https://github.com/jlord/git-it-electron) is a Desktop App for Learning Git and GitHub. Downloads for [Mac](https://github.com/jlord/git-it-electron/releases/download/4.3.0/Git-it-Mac-x64.zip), [Windows](https://github.com/jlord/git-it-electron/releases/download/4.3.0/Git-it-Win-ia32.zip), and [Linux](https://github.com/jlord/git-it-electron/releases/download/4.3.0/Git-it-Linux-x64.zip). 
-
-[Flight rules for Git](https://github.com/k88hudson/git-flight-rules#flight-rules-for-git) is a cookbook-style resource for Git documentation. 
+- [R documentation](https://www.rdocumentation.org/). This resource also available inside RStudio under the 'Help' pane. This should be your first stop in addressing and issue or learning more about the functionality of R and/ or R packages.
+- [Stack Overflow](https://stackoverflow.com/) is a website where programmers can post and answer community questions. This is a great resource to consult if you get stuck. More often than not if you have a question, someone else has had it to.
+- [Google search](https://www.google.com/) can turn up many sites with answers to questions and tutorials on how to solve a programming issue that you encounter. Be sure to add 'in R' to your query to improve search results. 
 
 ## R {#r-resources}
 
-[Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) is an interactive R programming tutorial provided by DataCamp. This particular DataCamp course is free and is a great place to get started if you are a complete beginner to programming in R. It will take around 4 hours to complete the full course and you will need to sign up for a free DataCamp account to get started. 
-
-[R for Data Science](http://r4ds.had.co.nz/) is an online textbook which introduces the 'tidyverse' approach to R programming that is now widely adopted by the community. It is co-authored by Garrett Grolemund and Hadley Wickham, two very well-known and well-respected R developers. 
-
-[Text Mining with R](https://www.tidytextmining.com/) is an online textbook which focuses on strategies for text mining and general text analysis. 
-
+- [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) is an interactive R programming tutorial provided by DataCamp. This particular DataCamp course is free and is a great place to get started if you are a complete beginner to programming in R. It will take around 4 hours to complete the full course and you will need to sign up for a free DataCamp account to get started. 
+- [R for Data Science](http://r4ds.had.co.nz/) is an online textbook which introduces the 'tidyverse' approach to R programming that is now widely adopted by the community. It is co-authored by Garrett Grolemund and Hadley Wickham, two very well-known and well-respected R developers. 
+- [Text Mining with R](https://www.tidytextmining.com/) is an online textbook which focuses on strategies for text mining and general text analysis. 
 
 ## RStudio {#rstudio-resources}
 
-[Getting started with R and RStudio](https://francojc.github.io/2017/08/14/getting-started-with-r-and-rstudio/) is a blog entry Jerid Francom wrote that covers getting R and RStudio installed and getting acquainted with how R and RStudio work together to facilitate and organize research projects. 
+- [Getting started with R and RStudio](https://francojc.github.io/2017/08/14/getting-started-with-r-and-rstudio/) is a blog entry Jerid Francom wrote that covers getting R and RStudio installed and getting acquainted with how R and RStudio work together to facilitate and organize research projects. 
+- [RStudio IDE cheatsheet](https://resources.rstudio.com/rstudio-cheatsheets/rstudio-ide-cheat-sheet) is a concise summary of some of the main tools included in the RStudio IDE. 
 
+## Publishing {#publishing-resources}
 
+### R Markdown
+
+- [R Markdown cheatsheat](https://resources.rstudio.com/rstudio-cheatsheets/rmarkdown-2-0-cheat-sheet)
+
+## Git {#git-resources}
+
+- [Git-it](https://github.com/jlord/git-it-electron) is a Desktop App for Learning Git and GitHub. Downloads for [Mac](https://github.com/jlord/git-it-electron/releases/download/4.3.0/Git-it-Mac-x64.zip), [Windows](https://github.com/jlord/git-it-electron/releases/download/4.3.0/Git-it-Win-ia32.zip), and [Linux](https://github.com/jlord/git-it-electron/releases/download/4.3.0/Git-it-Linux-x64.zip). 
+- [Flight rules for Git](https://github.com/k88hudson/git-flight-rules#flight-rules-for-git) is a cookbook-style resource for Git documentation. 
 
 

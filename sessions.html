@@ -322,49 +322,80 @@ div.tocify {
 </div>
 
 
-<!-- Session 1 -->
+<p><strong>Overview</strong></p>
+<p>There will be 8 sessions over the course of this academic year. Each session includes some prepatory work before the session and a follow-up task(s) after the session. The preparation is aimed at getting up to speed with general concepts and technical skills and the follow up is your opportunity to apply the knowledge that you have acquired to your particular project. The sessions themselves will cover both conceptual and technical concepts that need to be addressed in general in a quantitative research project but also include particular aspects that the learning commmunity needs to acheive its particular project goals.</p>
+<!-- The steps: 
+1. Preparation
+  - Some technical work: installation, review documentation/ tutorial
+  - Some conceptual reading
+2. Session: Concepts
+  - Flesh out the goals of this stage in the work
+3. Session: Coding applications
+  - Link conceptual needs with technical implementation
+4. Follow up 
+  - Apply the conceptual and/or technical skills to the research project
+-->
 <div id="session-1" class="section level1">
-<h1>Session 1</h1>
+<h1>Session 1: Getting oriented</h1>
 <div id="preparation" class="section level2">
 <h2>Preparation</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<ul>
+<li>Read <a href="https://francojc.github.io/2017/08/14/getting-started-with-r-and-rstudio/">Getting started with R and RStudio</a> for instructions on how to download and install R and RStudio. This guide also provides some a preliminary pass at the basic concepts required to work with this software.</li>
+<li>Read ModernDive: An introduction to statistical and data sciences via R (MD) <a href="https://moderndive.com/index.html">chapter 1</a> “Introduction” and <a href="https://moderndive.com/2-getting-started.html">chapter 2</a> “Getting Started with Data in R”.</li>
+</ul>
 </div>
-<div id="session-work" class="section level2">
-<h2>Session work</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<pre class="r"><code>library(tidyverse)
-
-mtcars # view the dataset</code></pre>
-<div data-pagedtable="false">
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["mpg"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["cyl"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["disp"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["hp"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["drat"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["wt"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["qsec"],"name":[7],"type":["dbl"],"align":["right"]},{"label":["vs"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["am"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["gear"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["carb"],"name":[11],"type":["dbl"],"align":["right"]}],"data":[{"1":"21.0","2":"6","3":"160.0","4":"110","5":"3.90","6":"2.620","7":"16.46","8":"0","9":"1","10":"4","11":"4","_rn_":"Mazda RX4"},{"1":"21.0","2":"6","3":"160.0","4":"110","5":"3.90","6":"2.875","7":"17.02","8":"0","9":"1","10":"4","11":"4","_rn_":"Mazda RX4 Wag"},{"1":"22.8","2":"4","3":"108.0","4":"93","5":"3.85","6":"2.320","7":"18.61","8":"1","9":"1","10":"4","11":"1","_rn_":"Datsun 710"},{"1":"21.4","2":"6","3":"258.0","4":"110","5":"3.08","6":"3.215","7":"19.44","8":"1","9":"0","10":"3","11":"1","_rn_":"Hornet 4 Drive"},{"1":"18.7","2":"8","3":"360.0","4":"175","5":"3.15","6":"3.440","7":"17.02","8":"0","9":"0","10":"3","11":"2","_rn_":"Hornet Sportabout"},{"1":"18.1","2":"6","3":"225.0","4":"105","5":"2.76","6":"3.460","7":"20.22","8":"1","9":"0","10":"3","11":"1","_rn_":"Valiant"},{"1":"14.3","2":"8","3":"360.0","4":"245","5":"3.21","6":"3.570","7":"15.84","8":"0","9":"0","10":"3","11":"4","_rn_":"Duster 360"},{"1":"24.4","2":"4","3":"146.7","4":"62","5":"3.69","6":"3.190","7":"20.00","8":"1","9":"0","10":"4","11":"2","_rn_":"Merc 240D"},{"1":"22.8","2":"4","3":"140.8","4":"95","5":"3.92","6":"3.150","7":"22.90","8":"1","9":"0","10":"4","11":"2","_rn_":"Merc 230"},{"1":"19.2","2":"6","3":"167.6","4":"123","5":"3.92","6":"3.440","7":"18.30","8":"1","9":"0","10":"4","11":"4","_rn_":"Merc 280"},{"1":"17.8","2":"6","3":"167.6","4":"123","5":"3.92","6":"3.440","7":"18.90","8":"1","9":"0","10":"4","11":"4","_rn_":"Merc 280C"},{"1":"16.4","2":"8","3":"275.8","4":"180","5":"3.07","6":"4.070","7":"17.40","8":"0","9":"0","10":"3","11":"3","_rn_":"Merc 450SE"},{"1":"17.3","2":"8","3":"275.8","4":"180","5":"3.07","6":"3.730","7":"17.60","8":"0","9":"0","10":"3","11":"3","_rn_":"Merc 450SL"},{"1":"15.2","2":"8","3":"275.8","4":"180","5":"3.07","6":"3.780","7":"18.00","8":"0","9":"0","10":"3","11":"3","_rn_":"Merc 450SLC"},{"1":"10.4","2":"8","3":"472.0","4":"205","5":"2.93","6":"5.250","7":"17.98","8":"0","9":"0","10":"3","11":"4","_rn_":"Cadillac Fleetwood"},{"1":"10.4","2":"8","3":"460.0","4":"215","5":"3.00","6":"5.424","7":"17.82","8":"0","9":"0","10":"3","11":"4","_rn_":"Lincoln Continental"},{"1":"14.7","2":"8","3":"440.0","4":"230","5":"3.23","6":"5.345","7":"17.42","8":"0","9":"0","10":"3","11":"4","_rn_":"Chrysler Imperial"},{"1":"32.4","2":"4","3":"78.7","4":"66","5":"4.08","6":"2.200","7":"19.47","8":"1","9":"1","10":"4","11":"1","_rn_":"Fiat 128"},{"1":"30.4","2":"4","3":"75.7","4":"52","5":"4.93","6":"1.615","7":"18.52","8":"1","9":"1","10":"4","11":"2","_rn_":"Honda Civic"},{"1":"33.9","2":"4","3":"71.1","4":"65","5":"4.22","6":"1.835","7":"19.90","8":"1","9":"1","10":"4","11":"1","_rn_":"Toyota Corolla"},{"1":"21.5","2":"4","3":"120.1","4":"97","5":"3.70","6":"2.465","7":"20.01","8":"1","9":"0","10":"3","11":"1","_rn_":"Toyota Corona"},{"1":"15.5","2":"8","3":"318.0","4":"150","5":"2.76","6":"3.520","7":"16.87","8":"0","9":"0","10":"3","11":"2","_rn_":"Dodge Challenger"},{"1":"15.2","2":"8","3":"304.0","4":"150","5":"3.15","6":"3.435","7":"17.30","8":"0","9":"0","10":"3","11":"2","_rn_":"AMC Javelin"},{"1":"13.3","2":"8","3":"350.0","4":"245","5":"3.73","6":"3.840","7":"15.41","8":"0","9":"0","10":"3","11":"4","_rn_":"Camaro Z28"},{"1":"19.2","2":"8","3":"400.0","4":"175","5":"3.08","6":"3.845","7":"17.05","8":"0","9":"0","10":"3","11":"2","_rn_":"Pontiac Firebird"},{"1":"27.3","2":"4","3":"79.0","4":"66","5":"4.08","6":"1.935","7":"18.90","8":"1","9":"1","10":"4","11":"1","_rn_":"Fiat X1-9"},{"1":"26.0","2":"4","3":"120.3","4":"91","5":"4.43","6":"2.140","7":"16.70","8":"0","9":"1","10":"5","11":"2","_rn_":"Porsche 914-2"},{"1":"30.4","2":"4","3":"95.1","4":"113","5":"3.77","6":"1.513","7":"16.90","8":"1","9":"1","10":"5","11":"2","_rn_":"Lotus Europa"},{"1":"15.8","2":"8","3":"351.0","4":"264","5":"4.22","6":"3.170","7":"14.50","8":"0","9":"1","10":"5","11":"4","_rn_":"Ford Pantera L"},{"1":"19.7","2":"6","3":"145.0","4":"175","5":"3.62","6":"2.770","7":"15.50","8":"0","9":"1","10":"5","11":"6","_rn_":"Ferrari Dino"},{"1":"15.0","2":"8","3":"301.0","4":"335","5":"3.54","6":"3.570","7":"14.60","8":"0","9":"1","10":"5","11":"8","_rn_":"Maserati Bora"},{"1":"21.4","2":"4","3":"121.0","4":"109","5":"4.11","6":"2.780","7":"18.60","8":"1","9":"1","10":"4","11":"2","_rn_":"Volvo 142E"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-</div>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<pre class="r"><code>ggplot(mtcars, aes(x = mpg, y = wt, color = factor(cyl))) +
-  geom_point() +
-  labs(title = &quot;Test plot&quot;, subtitle = &quot;Based on `mtcars` dataset&quot;, color = &quot;cyl&quot;)</code></pre>
-<p><img src="figures/test-plot-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<div id="session-goals" class="section level2">
+<h2>Session goals</h2>
+<p>In this session we aim to provide conceptual and technical orientation that will guide our learning community throughout the year. To get started everyone will have the opportunity to discuss their interest in this learning community and we will begin to flesh out where each member’s research stands at this point; Do you have a research question? Do you have data? What format is it in? How have you, or others, approached this topic in terms of analysis? <em>etc.</em></p>
+<p>On the technical side we will aim to sketch out links to some of the conceptual questions we will cover with data management strategies and programming approaches for conducting quantitative research with R. We will also make sure that everyone has R and RStudio up and working and answer any questions concerning the software as we move to set the stage for working with R in and between subsequent sessions.</p>
 </div>
 <div id="follow-up" class="section level2">
 <h2>Follow up</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<!-- Session 2 -->
+<ul>
+<li>Reflect on the status of your project in more detail. What are your goals? What is your research question? What type of data do you have/ need to address this research question? What format should your data have to facilitate analysis? How do you believe you will explore/ analyze your data? How do you expect to communicate your findings?</li>
+<li>Complete DataCamp’s <a href="https://www.datacamp.com/courses/free-introduction-to-r">Introduction to R</a> which is a free online course to introduce you to R programming. (Note: you will have to register for a free account to access this and all other DataCamp courses.)</li>
+</ul>
 </div>
 </div>
 <div id="session-2" class="section level1">
-<h1>Session 2</h1>
+<h1>Session 2: Data organization</h1>
 <div id="preparation-1" class="section level2">
 <h2>Preparation</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<ul>
+<li>Read <a href="https://www.cs.umd.edu/class/spring2017/cmsc320/files/tidy_data.pdf">Tidy data</a> <span class="citation">(Wickham 2014)</span></li>
+<li>Watch <a href="https://www.rstudio.com/resources/webinars/getting-started-with-r-markdown/">Getting Started with R Markdown</a></li>
+<li>Follow this <a href="guides.html#install-git">guide to download and install Git</a> on your computer.</li>
+<li>Download this <a href="">R Markdown website template</a>(coming soon) that we have developed for you to document your work in this community and progress on your project.</li>
+</ul>
 </div>
-<div id="session-work-1" class="section level2">
+<div id="session-work" class="section level2">
 <h2>Session work</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>In this session we will discuss the ‘tidy’ approach to data organization. We will work with various datasets to highlight how to set up data so that it is conducive to research.</p>
+<p>We will also discuss how R represents various data types and provide examples of how to summarize data in tables and figures to explore and gain preliminary insight from data. We will take advantage of R Markdown to create reports that interleave prose, code, and results of this code in a human-readable format.</p>
+<p>Finally we will step you through the process of connecting, updating, and publishing your R Markdown website to <a href="https://github.com/">GitHub</a>.</p>
 </div>
 <div id="follow-up-1" class="section level2">
 <h2>Follow up</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<ul>
+<li>Brainstorm the ideal struture of your data for conducting your research taking into account the ‘tidy’ approach to data that we covered in this session. Document your ideas on your personal website and push (upload) the site to GitHub.</li>
+<li>Complete the free module on DataCamp for <a href="https://www.datacamp.com/courses/data-visualization-with-ggplot2-1">Data Visualization with <code>ggplot2</code></a></li>
+<li>Read MD <a href="https://moderndive.com/3-viz.html">Data Visualization via <code>ggplot2</code></a></li>
+</ul>
+<!-- # Session 3: Importing data -->
+<!-- ## Preparation  -->
+<!-- # Session 4 -->
+<!-- # Session 5 -->
+<!-- # Session 6  -->
+<!-- # Session 7 -->
+<!-- # Session 8  -->
+</div>
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references">
+<div id="ref-Wickham2014a">
+<p>Wickham, Hadley. 2014. “Tidy Data.” <em>Journal of Statistical Software</em> 59 (10). <a href="https://doi.org/10.18637/jss.v059.i10" class="uri">https://doi.org/10.18637/jss.v059.i10</a>.</p>
+</div>
 </div>
 </div>
 

@@ -1,88 +1,88 @@
 ---
 title: "Sessions"
+bibliography: library.bib
+biblio-style: apalike
 ---
 
 ```{r, child="_setup.Rmd"}
 ```
 
-<!-- Session 1 -->
+**Overview**
 
-# Session 1
+There will be 8 sessions over the course of this academic year. Each session includes some prepatory work before the session and a follow-up task(s) after the session. The preparation is aimed at getting up to speed with general concepts and technical skills and the follow up is your opportunity to apply the knowledge that you have acquired to your particular project. The sessions themselves will cover both conceptual and technical concepts that need to be addressed in general in a quantitative research project but also include particular aspects that the learning commmunity needs to acheive its particular project goals. 
 
-## Preparation
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Session work
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-```{r test-data-frame}
-library(tidyverse)
-
-mtcars # view the dataset
-```
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-```{r test-plot}
-ggplot(mtcars, aes(x = mpg, y = wt, color = factor(cyl))) +
-  geom_point() +
-  labs(title = "Test plot", subtitle = "Based on `mtcars` dataset", color = "cyl")
-```
+<!-- The steps: 
+1. Preparation
+  - Some technical work: installation, review documentation/ tutorial
+  - Some conceptual reading
+2. Session: Concepts
+  - Flesh out the goals of this stage in the work
+3. Session: Coding applications
+  - Link conceptual needs with technical implementation
+4. Follow up 
+  - Apply the conceptual and/or technical skills to the research project
+-->
 
 
-## Follow up
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-<!-- Session 2 -->
-
-# Session 2 
+# Session 1: Getting oriented {#session-1}
 
 ## Preparation
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- Read [Getting started with R and RStudio](https://francojc.github.io/2017/08/14/getting-started-with-r-and-rstudio/) for instructions on how to download and install R and RStudio. This guide also provides some a preliminary pass at the basic concepts required to work with this software. 
+- Read ModernDive: An introduction to statistical and data sciences via R (MD) [chapter 1](https://moderndive.com/index.html) "Introduction" and [chapter 2](https://moderndive.com/2-getting-started.html) "Getting Started with Data in R".
 
-## Session work
+## Session goals
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In this session we aim to provide conceptual and technical orientation that will guide our learning community throughout the year. To get started everyone will have the opportunity to discuss their interest in this learning community and we will begin to flesh out where each member's research stands at this point; Do you have a research question? Do you have data? What format is it in? How have you, or others, approached this topic in terms of analysis? *etc.* 
+
+On the technical side we will aim to sketch out links to some of the conceptual questions we will cover with data management strategies and programming approaches for conducting quantitative research with R. We will also make sure that everyone has R and RStudio up and working and answer any questions concerning the software as we move to set the stage for working with R in and between subsequent sessions.
 
 ## Follow up
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- Reflect on the status of your project in more detail. What are your goals? What is your research question? What type of data do you have/ need to address this research question? What format should your data have to facilitate analysis? How do you believe you will explore/ analyze your data? How do you expect to communicate your findings?
+- Complete DataCamp's [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) which is a free online course to introduce you to R programming. (Note: you will have to register for a free account to access this and all other DataCamp courses.)
+
+# Session 2: Data organization {#session-2}
+
+## Preparation
+
+- Read [Tidy data](https://www.cs.umd.edu/class/spring2017/cmsc320/files/tidy_data.pdf) [@Wickham2014a]
+- Watch [Getting Started with R Markdown](https://www.rstudio.com/resources/webinars/getting-started-with-r-markdown/)
+- Follow this [guide to download and install Git](guides.html#install-git) on your computer. 
+- Download this [R Markdown website template]()(coming soon) that we have developed for you to document your work in this community and progress on your project. 
+
+## Session work
+
+In this session we will discuss the 'tidy' approach to data organization. We will work with various datasets to highlight how to set up data so that it is conducive to research.
+
+We will also discuss how R represents various data types and provide examples of how to summarize data in tables and figures to explore and gain preliminary insight from data. We will take advantage of R Markdown to create reports that interleave prose, code, and results of this code in a human-readable format. 
+
+Finally we will step you through the process of connecting, updating, and publishing your R Markdown website to [GitHub](https://github.com/). 
+
+## Follow up
+
+- Brainstorm the ideal struture of your data for conducting your research taking into account the 'tidy' approach to data that we covered in this session. Document your ideas on your personal website and push (upload) the site to GitHub.
+- Complete the free module on DataCamp for [Data Visualization with `ggplot2`](https://www.datacamp.com/courses/data-visualization-with-ggplot2-1)
+- Read MD [Data Visualization via `ggplot2`](https://moderndive.com/3-viz.html)
+
+<!-- # Session 3: Importing data -->
+
+<!-- ## Preparation  -->
+
+
+
+
+<!-- # Session 4 -->
+
+<!-- # Session 5 -->
+
+<!-- # Session 6  -->
+
+<!-- # Session 7 -->
+
+<!-- # Session 8  -->
+
+# References
+
+
+

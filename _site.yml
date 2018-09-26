@@ -20,3 +20,5 @@ output:
     df_print: paged
     toc: true
     toc_float: yes
+    bibliography: library.bib
+    biblio-style: apalike
