@@ -1,4 +1,4 @@
-```{r global_options, echo = FALSE}
+```{r global_options, echo = FALSE, message=FALSE}
 
 library(knitr)
 opts_chunk$set(cache.path='_cache/', # set dir for caches
