@@ -32,6 +32,6 @@ title: "Resources"
 
 - [Git-it](https://github.com/jlord/git-it-electron) is a Desktop App for Learning Git and GitHub. Downloads for [Mac](https://github.com/jlord/git-it-electron/releases/download/4.3.0/Git-it-Mac-x64.zip), [Windows](https://github.com/jlord/git-it-electron/releases/download/4.3.0/Git-it-Win-ia32.zip), and [Linux](https://github.com/jlord/git-it-electron/releases/download/4.3.0/Git-it-Linux-x64.zip). 
 - [Flight rules for Git](https://github.com/k88hudson/git-flight-rules#flight-rules-for-git) is a cookbook-style resource for Git documentation. 
-- [Happy Git and GitHub for the useR](Happy Git and GitHub for the useR) is a guide for using R, RStudio and Git as well as a guide on using git in the classroom written by Jenny Bryan.
+- [Happy Git and GitHub for the useR](http://happygitwithr.com/) is a guide for using R, RStudio and Git as well as a guide on using git in the classroom written by Jenny Bryan.
 
 
