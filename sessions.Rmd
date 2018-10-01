@@ -49,7 +49,7 @@ On the technical side we will aim to sketch out links to some of the conceptual 
 - Read [Tidy data](https://www.cs.umd.edu/class/spring2017/cmsc320/files/tidy_data.pdf) [@Wickham2014a]
 - Watch [Getting Started with R Markdown](https://www.rstudio.com/resources/webinars/getting-started-with-r-markdown/)
 - Follow this [guide to download and install Git](guides.html#install-git) on your computer. 
-- Download this [R Markdown website template](https://github.com/WFU-TLC/default_website) that we have developed for you to document your work in this community and progress on your project. Please `fork` this repository by pressing the [`fork`](https://help.github.com/articles/fork-a-repo/) button in the upper right hand side. Additionally, you can download the entire repository as a zip drive and then load it manually into a repository that you create.
+- Download this [R Markdown website template](https://github.com/WFU-TLC/default_website) that we have developed for you to document your work in this community and progress on your project. Please `fork` this repository by pressing the [`fork`](https://help.github.com/articles/fork-a-repo/) button located on the upper right hand side of the repository. Additionally, you can download the entire repository as a zip drive and then load it manually into a repository that you create.
 
 ## Session work
 
