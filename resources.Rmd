@@ -7,6 +7,7 @@ title: "Resources"
 
 ## Getting help {#getting-help}
 
+- [FLC discussion board](https://github.com/WFU-TLC/flc_discussion_board/issues). We've co-opted the Issues feature for GitHub respositories to serve as a discussion board for this FLC. Please post questions and issues here. All members of the FLC will have access to this resource and be able to help resolve your questions and issues.
 - [R documentation](https://www.rdocumentation.org/). This resource also available inside RStudio under the 'Help' pane. This should be your first stop in addressing and issue or learning more about the functionality of R and/ or R packages.
 - [Stack Overflow](https://stackoverflow.com/) is a website where programmers can post and answer community questions. This is a great resource to consult if you get stuck. More often than not if you have a question, someone else has had it to.
 - [Google search](https://www.google.com/) can turn up many sites with answers to questions and tutorials on how to solve a programming issue that you encounter. Be sure to add 'in R' to your query to improve search results. 
