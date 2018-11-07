@@ -62,7 +62,7 @@ Finally we will step you through the process of connecting, updating, and publis
 
 ## Follow up
 
-- Brainstorm the ideal structure of your data for conducting your research taking into account the 'tidy' approach to data that we covered in this session. Document your ideas on your personal website and push (upload) the site to GitHub. See [Guides](https://wfu-tlc.github.io/guides.html) for a refresher on editing, building, and updating R markdown websites.
+- Brainstorm the ideal structure of your data for conducting your research taking into account the 'tidy' approach to data that we covered in this session. Document your ideas on your personal website and push (upload) the site to GitHub. See the [Resources](https://wfu-tlc.github.io/resources.html) page for a link to a refresher on editing, building, and updating R markdown websites.
 
 # Session 3: Import/ Export/ Convert Data
 
