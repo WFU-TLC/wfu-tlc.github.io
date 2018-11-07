@@ -162,16 +162,16 @@ git push origin master
 
 The next step is to enable Github to share your static html website. This can be done by navigating to <https://github.com> in your browser to your repository. There go the settings tab:
 
-![](images/rmd-website-6)
+![](images/rmd-website-6.png)
 
 Once you have selected settings then scroll down to the **Github Pages** section.
 
 
-![](images/rmd-website-7)
+![](images/rmd-website-7.png)
 
 Once there select "master branch /docs folder" under the **source**.
 
-![](images/rmd-website-7)
+![](images/rmd-website-7.png)
 
 Go ahead and press the **Save** button. Now your website should be hosted at the web address displayed!
 
