@@ -35,4 +35,7 @@ title: "Resources"
 - [Flight rules for Git](https://github.com/k88hudson/git-flight-rules#flight-rules-for-git) is a cookbook-style resource for Git documentation. 
 - [Happy Git and GitHub for the useR](http://happygitwithr.com/) is a guide for using R, RStudio and Git as well as a guide on using git in the classroom written by Jenny Bryan.
 
+## R Markdown Websites
+
+- [Building a Website](rmarkdown_site.html) using R Markdown provides details on creating and updating a website using R Markdown.
 
