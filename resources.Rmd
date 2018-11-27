@@ -39,3 +39,8 @@ title: "Resources"
 
 - [Building a Website](rmarkdown_site.html) using R Markdown provides details on creating and updating a website using R Markdown.
 
+## Style Guides {#style-guides}
+
+- [Tidyverse Style Guide](https://style.tidyverse.org/) provides recommended practices for your code style. This encourages higher levels of readability and consistency thus improved shareability. 
+- [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml) is similar to the `tidyverse` style guide, but with small differences and less comprehensive. 
+
