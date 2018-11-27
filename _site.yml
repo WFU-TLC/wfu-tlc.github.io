@@ -12,6 +12,9 @@ navbar:
   - text: "Resources"
     icon: fa-folder
     href: resources.html
+  - text: "Participants"
+    icon: fa-hands-helping
+    href: participants.html
 output:
   html_document:
     theme: journal

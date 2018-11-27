@@ -1,0 +1,21 @@
+---
+title: "Participants"
+---
+
+```{r, child="_setup.Rmd"}
+```
+
+### [**Allen Brown**](https://brown-allen.github.io/FLC_Website/)
+
+### **Raina Haque**
+
+### [**Dan Johnson**](https://adanieljohnson.github.io/default_website/)
+
+
+### [**Carrie Johnston**](https://johnstc.github.io/default_website/)
+
+### [**EJ Masicampo**](https://ejmasicampo.github.io/flc_r_website/)
+
+### [**Melissa Masicampo**](https://melmaff.github.io/FLC_R_102218/)
+
+### [**Jon Smart**](https://smartjw.github.io/flc_r/)
