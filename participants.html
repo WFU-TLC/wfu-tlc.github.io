@@ -181,11 +181,11 @@ $(document).ready(function ()  {
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
         .removeClass('toc-ignore')
-        .children('h1,h2').addClass('toc-ignore');
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
 
     // establish options
     var options = {
-      selectors: "h1,h2",
+      selectors: "h1,h2,h3",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
