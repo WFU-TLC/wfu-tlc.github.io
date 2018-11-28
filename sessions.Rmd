@@ -87,9 +87,59 @@ In this session we will cover the first steps involved in working with data: imp
 
 ## Preparation
 
-TBA
+Reading on data wrangling:
 
-<!-- - [Reshaping data for analysis with R](http://www.sthda.com/english/wiki/tidyr-crucial-step-reshaping-data-with-r-for-easier-analyses) -->
+- [Reshaping data for analysis with R](http://www.sthda.com/english/wiki/tidyr-crucial-step-reshaping-data-with-r-for-easier-analyses)
+- [Tidy Data](https://r4ds.had.co.nz/tidy-data.html) 
+
+Optional reading (reading and tidying text for analysis):
+
+- [The Tidy Text Format](https://www.tidytextmining.com/tidytext.html) from the  `tidytext` online book
+- [Curate language data](https://francojc.github.io/2017/12/01/curate-language-data-organizing-meta-data/) from Jerid's blog
+
+*These two resources should give you an idea how to importing text from a single and multiple files (and from compressed data formats, such as .zip), how to create tabular data from text, and text tokenization (with the `tidytext` package). There are a number of concepts and coding strategies that we have covered and will cover in the upcoming session.*
+
+Project work:
+
+Evaluate the current state of your project and be ready to share your thoughts with the FLC.
+
+- What is the current format/ structure of the data?
+- Is this structure 'tidy'? 
+- Does it contain the relevant variables needed for the upcoming analysis?
+- If not, what is needed to bring the data in-line with your analysis expectations?
+
+
+## Session work
+
+As we have discussed, the basic data structure used for analysis in R is a data frame. A data frame is a tabular structure. The source data for some projects will already be in tabular format, while other data (text processing) may not. In either case, there is almost always some amount of re-organization that needs to take place before the data is ready for statistical modeling. For example, you may want to take information contained in one column and separate it into two columns, you may need to remove columns, you may need to clean up the values in a column or recode them, you may want to derive new columns based on the values of other columns, *etc*. These operations constitute the data wrangling/ munging/ curation stage of a project. 
+
+In this session we will introduce you to data wrangling in R with the `tidyr` and `dplyr` packages. We will provide you an opportunity to discuss the current state of your project data and evaluate what data wrangling is needed to best organize your data to address your research goals.
+
+## Follow up
+
+Applying wrangling strategies to your data: 
+
+- Move data structure forward by wrangling your data as necessary.
+- Visualize a primary research question
+    - What trends do you observe?
+    - Repeat this process with follow up questions and document your preliminary findings on your website. 
+
+Preparing for analysis:
+
+Reading: 
+
+- [Introduction to statistical thinking](https://francojc.github.io/2017/09/15/introduction-to-statistical-thinking/) from Jerid's blog. 
+
+Project work (post-reading):
+
+- Consider the type of analysis that best meets your goals: exploratory analysis, inference/ hypothesis-testing analysis, or predictive analysis. 
+- Update your website with your progress: please present ideas on the type of analysis you (tentatively) plan on employing in your analysis before the break. This will help Mike and I work to tailor our spring sessions. 
+
+# Session 5: Choose an appropriate model
+
+## Preparation
+
+TBA
 
 ## Session work
 
@@ -98,8 +148,6 @@ TBA
 ## Follow up
 
 TBA
-
-<!-- Session 5: Choose an appropriate model -->
 
 <!-- Session 6: Preparing for modeling -->
 
