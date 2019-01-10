@@ -9,7 +9,7 @@ biblio-style: apalike
 
 **Overview**
 
-There will be 8 sessions over the course of this academic year. Each session includes some prepatory work before the session and a follow-up task(s) after the session. The preparation is aimed at getting up to speed with general concepts and technical skills and the follow up is your opportunity to apply the knowledge that you have acquired to your particular project. The sessions themselves will cover both conceptual and technical concepts that need to be addressed in general in a quantitative research project but also include particular aspects that the learning community needs to achieve its particular project goals. 
+There will be 8 sessions over the course of this academic year. Each session includes some preparatory work before the session and a follow-up task(s) after the session. The preparation is aimed at getting up to speed with general concepts and technical skills and the follow up is your opportunity to apply the knowledge that you have acquired to your particular project. The sessions themselves will cover both conceptual and technical concepts that need to be addressed in general in a quantitative research project but also include particular aspects that the learning community needs to achieve its particular project goals. 
 
 **Note:** A space on GitHub has been created for you to post questions and issues that you may have throughout the year. Here is the link to the [flc_discussion_board](https://github.com/WFU-TLC/flc_discussion_board/issues) issues tab. All members of the FLC will be able to see and respond there. 
 
@@ -139,13 +139,50 @@ Project work (post-reading):
 
 ## Preparation
 
-TBA
+1. This session we will begin to start each session with a quick status update for each person. To this point in 3-4 minutes you should be able to give a status update on the following points:
+
+- What have I worked on since our last session?
+- Share at least one block of code (or pseudocode) that you have written since session 6 
+- What is the next question I am hoping to answer?
+
+  This will help us all hold each other accountable and help shape the direction of subsequent sessions.
+
+2. Update your personal session notes or project page, especially for session 4, with the topics we covered and any code that you have written. This will give you some practice using your website and pushing new code to github. You can use your session notes as a journal to document what items that you would like us to cover or on which you need more support.
+
+See [these notes](rmarkdown_site.html) for how to update your website. 
+
 
 ## Session work
 
-TBA
+In this session we again start with our round table and orientation of all of our projects. At this point we might be able to start to break up into smaller groups to focus on the tools and methods most appropriate to your research projects (e.g. text analysis methods vs more traditional quantitative approaches). 
+
+- Round table review of your project status (3-4 min per person)
+
+- Open discussion and reflection on the projects
+
+- Group work
+
+- Reconvene, recap and plan for session 6
+
 
 ## Follow up
+
+<!-- 
+Update your session 5 notes with:
+What kind of analysis you want to perform?
+- Inference
+- Prediction
+- Exploratory
+
+What kind of tools does that require that I use?
+ - Regression
+ - Hypothesis testing
+ - Graphing
+ - Dimension reduction (EFA, PCA, etc)
+ 
+ Jerid and Mike will assign specific reading based upon the individual needs?
+
+-->
 
 TBA
 
