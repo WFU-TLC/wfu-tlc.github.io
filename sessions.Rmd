@@ -142,7 +142,7 @@ Project work (post-reading):
 1. This session we will begin to start each session with a quick status update for each person. To this point in 3-4 minutes you should be able to give a status update on the following points:
 
 - What have I worked on since our last session?
-- Share at least one block of code (or pseudocode) that you have written since session 6 
+- Share at least one block of code (or [pseudocode](https://www.wikihow.com/Write-Pseudocode)) that you have written since session 6.  
 - What is the next question I am hoping to answer?
 
   This will help us all hold each other accountable and help shape the direction of subsequent sessions.
