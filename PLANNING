@@ -1,0 +1,47 @@
+# Planning Session
+
+## Where are we?
+Carrie
+Dan
+EJ
+Melissa
+John
+
+## How Are Things
+- More stats focus in a tuturial style?
+  - Inference
+  - Prediction
+  - Exploration
+- REPREX? How to write good questions.
+
+## Approach
+
+## Agenda for Next Time (Mike to update website)
+- Start with round table (2-3 min/ person) 
+  - What have work have I worked completed since last session?
+  - What questions still remains before next session?
+  - What _kind_ of analysis you will be doing? 
+  - What do you want to deliver at the end of the final session?
+  
+- Example to work through (Jerid to complete)
+  - Couple of very similfied text data
+  - Thing about the statistical inferences one can make
+    - Exploratory
+    - Inference
+    - Prediction
+  
+- Finish 10 minutes before time and write reflection about (and build the website and push to GH):
+  - what have we talked about today, 
+  - what questions do you remaining that were raised today or you hope will be reaised in a future meeting? 
+  - What future progress do you hope to finish in the next sessions? 
+  
+## Future Sessions
+- Focus not necessarily code, more on reflection as an objective . 
+- Early focus on the discussion board and reprex (reproducible examples)
+- Better discussion board functionality
+  - text2discuss
+- Early focus on integrating Rmarkdown/ prose/ use of the website as a way to work through problems (and share)
+  - Things you saw
+  - Things you thought about
+  - Links to cool things
+  
