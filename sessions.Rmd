@@ -192,6 +192,38 @@ TBA
 
 <!-- Session 8: Reporting results/ Showcase -->
 
+# Session 7
+
+## Preparation
+
+Prepare roundtable comments  
+
+  - Progress you have made since session 6  
+  - The next research/programming problem you're hoping to address  
+
+## Session work
+
+**Round table** (2-3 min/ person)  
+  - What have work have I worked completed since last session?  
+  - What questions still remains before next session? 
+  - What _kind_ of analysis you will be doing?  
+  - What do you want to deliver at the end of the final session? 
+  
+**Example Analysis** (together)
+  - Exploratory analysis  
+  - Inference phase  
+  - Prediction  
+  
+**Personal Reflection** 
+  - What have we talked about today?  
+  - what questions do you remaining that were raised today or you hope will be reaised in a future meeting?  
+  - What future progress do you hope to finish in the next sessions?  
+Write the answers to these questions in your website, render and push them. 
+
+## Follow up
+
+TBD
+
 # References
 
 
